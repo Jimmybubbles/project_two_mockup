@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+    margin: .5rem;
+    transition: all 0.5s ease-in-out;
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial;
     margin: 0;
@@ -92,8 +97,6 @@ section {
     padding: 20px;
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(31, 14, 130, 1) 100%);
-
-
 }
 
 img {

@@ -7,6 +7,8 @@ WHEN I load their portfolio
 
 ##THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
+name, image tag, links to sections(about me, work, contact)
+
 ------------------------------------------------------------------------
 
 WHEN I click one of the links in the navigation

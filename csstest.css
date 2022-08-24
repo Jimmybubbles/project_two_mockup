@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #2c2eda 0%, #2c2eda 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+.screen{
+    height: 100px;
+    width: 100%;
+    /* Sets border to bottom only */
+    border-bottom: 10px solid darkblue;
+    background-color: #999900;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: inline;;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border-right-width: 10px;
+
+
+}
+
+
+
+.largefont {
+    display: inline-flex;
+    float: right;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.aboutme {
+    float: right;
+    height: 200px;
+    width: auto;
+    background: #15112e
+    
+}
+
+p {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 30px;
+    line-height: 25px;
+    padding-left: 10px;
+
+
+
+}
+
+
+
+
+.project {
+    flex-grow: 1;
+    height: 400px;
+    width: auto;
+    background-color: gold;
+}
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.work {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    background-color: blue;
+
+
+}
+
+
+
+.innertube {
+    margin: 15px;
+    /* Padding for content */
+    margin-top: 0;
+    height: max-content;
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    padding: 4px 0;
+}

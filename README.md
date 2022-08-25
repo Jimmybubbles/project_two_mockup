@@ -14,4 +14,8 @@ Created a template portfolio with functionality to be able to build off as the c
 
 - create functionality with mouse roll overs
 
+![portfolio1](https://user-images.githubusercontent.com/110278837/186648018-300dec82-c9d0-4f3d-a064-19b52741b99b.png)
+
+![portfolio2](https://user-images.githubusercontent.com/110278837/186648171-a9b8299a-1bbf-4778-b9c0-6b1697696fcc.png)
+
 

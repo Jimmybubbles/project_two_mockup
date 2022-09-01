@@ -1,42 +1,21 @@
 # project_two_mockup
-create functionality with mouse roll overs
 
-GIVEN I need to sample a potential employee's previous work
+Created a template portfolio with functionality to be able to build off as the course continues
 
-WHEN I load their portfolio
+- included navigation bar with hover effects
 
-##THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+- links to work down the page
 
-name, image tag, links to sections(about me, work, contact)
+- links take user to deployed application and a tetris game
 
-------------------------------------------------------------------------
+- media scale added for mobile
 
-WHEN I click one of the links in the navigation
+- about me has photo - will change when i get a photo done, and a write up of experience and what i enjoy doing.
 
-##THEN the UI scrolls to the corresponding section
+- create functionality with mouse roll overs
 
-------------------------------------------------------------------------
+![portfolio1](https://user-images.githubusercontent.com/110278837/186648018-300dec82-c9d0-4f3d-a064-19b52741b99b.png)
 
-WHEN I click on the link to the section about their work
+![portfolio2](https://user-images.githubusercontent.com/110278837/186648171-a9b8299a-1bbf-4778-b9c0-6b1697696fcc.png)
 
-##THEN the UI scrolls to a section with titled images of the developer's applications
 
-------------------------------------------------------------------------
-
-WHEN I am presented with the developer's first application
-
-THEN that application's image should be larger in size than the others
-
-------------------------------------------------------------------------
-
-WHEN I click on the images of the applications
-
-THEN I am taken to that deployed application
-
-------------------------------------------------------------------------
-
-WHEN I resize the page or view the site on various screens and devices
-
-THEN I am presented with a responsive layout that adapts to my viewport
-
-flexbox for this issue
